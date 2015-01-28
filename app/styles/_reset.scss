@@ -1,0 +1,47 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html, body {
+  height:100%;
+  overflow:hidden;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, img, abbr, acronym, address, big, cite, code, del, dfn,
+em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl,
+dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption,
+figure, hgroup, menu, nav, summary, time, mark, audio, video, header, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header,
+hgroup, img, menu, nav, section, summary {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+  max-height:100%;
+}
